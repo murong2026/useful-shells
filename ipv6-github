@@ -1,0 +1,14 @@
+cat >> /etc/hosts <<'EOF'
+# --- GitHub 官方 CDN IPv6 ---
+2606:50c0:8000::133   objects.githubusercontent.com
+2606:50c0:8000::133   raw.githubusercontent.com
+2606:50c0:8000::133   gist.githubusercontent.com
+2606:50c0:8000::133   cloud.githubusercontent.com
+2606:50c0:8000::154   github.githubassets.com
+
+# --- 第三方 IPv6 代理 ---
+2a01:4f8:c010:d56::2 github.com
+2a01:4f8:c010:d56::3 api.github.com
+2a01:4f8:c010:d56::4 codeload.github.com
+EOF
+

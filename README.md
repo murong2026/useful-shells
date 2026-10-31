@@ -27,3 +27,8 @@ wget -qO- https://raw.githubusercontent.com/murong2026/useful-shells/main/instal
 ```
 # 2. add github proxy in ipv6-vps
 copy and paste
+
+# 3. add sing-box route config
+```
+bash <(curl -fsSL 'https://raw.githubusercontent.com/murong2026/useful-shells/main/singbox-route.sh')
+```

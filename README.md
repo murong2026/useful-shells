@@ -32,3 +32,7 @@ copy and paste
 ```
 bash <(curl -fsSL 'https://raw.githubusercontent.com/murong2026/useful-shells/main/singbox-route.sh')
 ```
+# 4. net speed
+```
+wget -qO- bench.sh | bash
+```
